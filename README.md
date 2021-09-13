@@ -2,7 +2,7 @@
 
 ## How to run django-graphql project
 
-** Step 1: **
+**Step 1:**
 Clone this repository:
 ``` git clone https://github.com/kmrul/django-graphql.git ```
 ```
@@ -12,24 +12,24 @@ virtualenv env
 
 ```
 
-** Step 2 **
+**Step 2**
 Activate virtual environement
 ** Mac OS/Linux **
 ```
 source env/bin/activate
 ```
-** Windows **
+**Windows**
 ```
 env\Scripts\activate
 ```
-** Step 3 **
+**Step 3**
 Install Python Packages
 
 ``` 
 pip install -r requirements.txt
 ```
 
-** Step 4 **
+**Step 4**
 Make migrations 
 ```
 python manage.py makemigrations
@@ -42,7 +42,7 @@ python manage.py runserver
 ```
 Browse http://120.0.0.1:8000/graphql 
 
-** Step 5 **
+**Step 5**
 Testing our GraphQL API
 
 ```
@@ -105,4 +105,4 @@ mutation {
 
 ```
 
-** Happy Django Graphql **
+**Happy Django with Graphql**
