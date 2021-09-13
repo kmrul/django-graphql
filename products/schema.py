@@ -109,12 +109,13 @@ class CreateBook(graphene.Mutation):
 
     @classmethod
     def mutate(cls, root, info, input):
+        print("input:", input)
         book = Book()
         book.title = input.title
         book.author = input.author
         book.pages = input.pages
         book.price = input.price
-        Book.quantity = input.quantity
+        book.quantity = input.quantity
         book.description = input.description
         book.status = input.status
         book.save()
